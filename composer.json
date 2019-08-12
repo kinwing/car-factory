@@ -1,0 +1,17 @@
+{
+  "name": "kinwing/car-factory",
+  "description": "造车厂",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "car\\benz\\": "src/car/benz",
+      "car\\bmw\\": "src/car/bmw",
+      "user\\sale\\": "src/user/sale"
+    }
+  }
+}
